@@ -27,7 +27,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: arn:aws:iam::474665692949:role/resilient-deploy-github-actions-role
-          aws_region: ${{ env.AWS_REGION}}
+          aws-region: ${{ env.AWS_REGION }}
       
       - name: Login to Amazon ECR 
         id: login-ecr
