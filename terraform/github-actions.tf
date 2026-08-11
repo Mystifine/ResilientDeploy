@@ -17,7 +17,7 @@ resource "aws_iam_role" "github_actions" {
           "token.actions.githubusercontent.com:aud" = "sts.amazonaws.com"
         }
         StringLike = {
-          "token.actions.githubusercontent.com:sub" = "repo:Mystifine/ResilientDeploy:*"
+          "token.actions.githubusercontent.com:sub" = "repo:Mystifine@35544772/ResilientDeploy@1327299926:*"
         }
       }
     }]
